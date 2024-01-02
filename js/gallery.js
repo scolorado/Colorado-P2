@@ -93,5 +93,10 @@ function GalleryImage() {
 }
 
 function fetchJSON(){
-
+	mRequest.onreadystatechange;
+	mRequest.readyState;
+	mRequest.status;
+	mRequest.responseText;
+	mRequest.open;
+	mRequest.send;
 }
