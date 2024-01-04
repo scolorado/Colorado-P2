@@ -86,19 +86,19 @@ function GalleryImage() {
 	//3. the date when the photo was taken
 	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 
-	let locatation;
-	let description;
-	let date;
-	let img;
+	var location;
+	var description;
+	var date;
+	var img;
 }
 
 function fetchJSON(){
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = 
 	mRequest.onreadystatechange;
 	mRequest.readyState;
 	mRequest.status;
-	mRequest.responseText;
+	document.getElementsByTagName("mRequest").innerHTML = xhttp.responseText;
 	mRequest.open;
 	mRequest.send;
 }
-
-const parsedImg = JSON.parse(responseText);
