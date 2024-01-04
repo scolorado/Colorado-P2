@@ -100,3 +100,5 @@ function fetchJSON(){
 	mRequest.open;
 	mRequest.send;
 }
+
+const parsedImg = JSON.parse(responseText);
