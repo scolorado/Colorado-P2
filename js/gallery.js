@@ -37,7 +37,7 @@ function swapPhoto() {
 	//Access the img element and replace its source
 	//with a new image from your images array which is loaded 
 	//from the JSON string
-	console.log('swap photo');
+	
 }
 
 // Counter for the mImages array
@@ -54,7 +54,7 @@ var mJson;
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = images.JSON;
+var mUrl = 'images.JSON';
 
 
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
@@ -93,12 +93,11 @@ function GalleryImage() {
 }
 
 function fetchJSON(){
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = 
-	mRequest.onreadystatechange;
-	mRequest.readyState;
-	mRequest.status;
-	document.getElementsByTagName("mRequest").innerHTML = xhttp.responseText;
-	mRequest.open;
-	mRequest.send;
+	mRequest.onreadystatechange = function();
+	if (this.readyState == 4 && this.status == 200) {
+		mJson = JSON.parse(mRequest.responseText);
+		iterateJSON(mJson);
+	}
 }
+mRequest.open("GET", mUrl, true);
+mRequest.send();
