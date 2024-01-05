@@ -129,3 +129,17 @@ function iterateJSON(mJson){
 		mImages[x].img = mJson.images[x].imgPath;
 	}
 }
+
+//function that will animate the arrows directions with css
+function toggleDetails()
+{
+	if($(".moreIndicator").hasClass("rot90"))
+	{
+		$(".moreIndicator").removeClass("rot90");
+		$(".moreIndicator").addClass("rot270");
+	} else {
+		$(".moreIndicator").removeClass("rot270");
+		$(".moreIndicator").addClass("rot90");
+	}
+	$(".details").slideToggle("slow", "linear");
+}
