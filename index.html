@@ -28,5 +28,21 @@
 
     </div>
   </div>
+
+  <!--Clicker handler; when clicked will go to previous photo-->
+  <script>
+    $( "#prevPhoto" ).click(function() {
+      mCurrentIndex -=2;
+      swapPhoto();
+    });
+  </script>
+
+  <!-- Clicker handler; when clicked will go to next photo-->
+<script>
+  $( "#nextPhoto" ).click(function(){
+    swapPhoto();
+  });
+</script>
+
 </body>
 </html>
