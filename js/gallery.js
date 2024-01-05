@@ -101,7 +101,6 @@ function GalleryImage() {
 	//2. description of photo
 	//3. the date when the photo was taken
 	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
-
 	var location;
 	var description;
 	var date;
@@ -117,3 +116,16 @@ function fetchJSON(){
 }
 mRequest.open("GET", mUrl, true);
 mRequest.send();
+
+
+//created a function that will loop through eaach image in the Gallery Image
+function iterateJSON(mJson){
+	for (x = o; x < mJson.images.length; x++)
+	{
+		mImages[x] = new GalleryImage();
+		mImages[x].location = mJson.images[x].imgLocation;
+		mImages[x].description = mJson.images[x].description;
+		mImages[x].date = mJson.images[x].date;
+		mImages[x].img = mJson.images[x].imgPath;
+	}
+}
