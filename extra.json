@@ -5,6 +5,30 @@
             "imgLocation": "Maine, USA",
             "description": "Acadia National Park",
             "date": "unknown"
+        },
+        {
+            "imgPath": "img/places/",
+            "imgLocation": "",
+            "description": "",
+            "date": "unknown",
+        },
+        {
+            "imgPath": "img/places/",
+            "imgLocation": "",
+            "description": "",
+            "date": "unknown",
+        },
+        {
+            "imgPath": "img/places/",
+            "imgLocation": "",
+            "description": "",
+            "date": "unknown",
+        },
+        {
+            "imgPath": "img/places/",
+            "imgLocation": "",
+            "description": "",
+            "date": "unknown",
         }
     ]
 }
