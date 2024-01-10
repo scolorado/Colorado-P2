@@ -121,7 +121,7 @@ function GalleryImage() {
   var img;
 }
 
-//created a function that will loop through eaach image in the Gallery Image
+//created a function that will loop through each image in the Gallery Image
 
 function iterateJSON(){
   for(x = 0; x < mJson.images.length; x++){
