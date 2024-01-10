@@ -2,32 +2,32 @@
     "images":[
         {
             "imgPath": "img/places/maine.jpg",
-            "imgLocation": "Maine, USA",
+            "imgLocation": "Maine",
             "description": "Acadia National Park",
             "date": "unknown"
         },
         {
             "imgPath": "img/places/maine2.jpg",
-            "imgLocation": "Maine, USA",
+            "imgLocation": "Maine",
             "description": "Gulf Hagas",
             "date": "unknown",
         },
         {
             "imgPath": "img/places/mass.JPEG",
-            "imgLocation": "Massachusetts, USA",
+            "imgLocation": "Massachusetts",
             "description": "Welch and Dickey Mountain Loop",
             "date": "unknown",
         },
         {
-            "imgPath": "img/places/",
-            "imgLocation": "",
-            "description": "",
+            "imgPath": "img/places/newyork.jpg",
+            "imgLocation": "New York",
+            "description": "Catskill Mountains",
             "date": "unknown",
         },
         {
-            "imgPath": "img/places/",
-            "imgLocation": "",
-            "description": "",
+            "imgPath": "img/places/maine3.jpg",
+            "imgLocation": "Maine",
+            "description": "Baxter State Park",
             "date": "unknown",
         }
     ]
