@@ -98,7 +98,7 @@ for(const [key, value] of urlParams){
   mUrl=value;
 }
 if(mUrl == undefined){
-  mUrl = 'gallery.json';
+  mUrl = 'extra.json';
 }
 
 fetchJSON();
